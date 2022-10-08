@@ -31,6 +31,17 @@ h1 {
     transform: rotate(20deg);
     z-index=1;
 }
+@media (max-width:1028px){
+    .PhonePhoto{
+        position:static;
+        transform:rotate(0);
+        width:100%;
+    }
+    .IntroText{
+        text-align:center;
+    }
+}
+
 .navbar-brand {
     font-size: 2rem;
     line-height: 1.5;
@@ -113,6 +124,7 @@ h2 {
     padding-top: 5%;
     padding-bottom:5%;
     text-align:center;
+
 }
 
 .PressImg{
