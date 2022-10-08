@@ -13,19 +13,18 @@ h1 {
     line-height: 1.5;
     font-weight: bold;
 }
-#IntroText{
-    padding-top:40%;
+p {
+    color: gray;
+    font-size: 1.5rem;
 }
-#IntroPhoto{
-    padding-top:15%;
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
 
-}
-#titletxt{
-    padding-bottom:15%;
-}
-.TopBoy {
-    z-index: 2;
-}
+
 .PhonePhoto {
     width: 50%;
     transform: rotate(20deg);
@@ -41,7 +40,20 @@ h1 {
         text-align:center;
     }
 }
+.TestiImage {
+    width: 15%;
+    border-radius: 100%;
+    margin: 3%;
+    text-align: left;
+}
 
+.PressImg {
+    padding: 5%;
+}
+
+.TopBoy {
+    z-index: 2;
+}
 .navbar-brand {
     font-size: 2rem;
     line-height: 1.5;
@@ -60,10 +72,7 @@ h1 {
     margin-left:2.5%;
 }
 
-#features{
-    padding-top:15%;
-    padding-bottom:15%;
-}
+
 .FeaturedSec {
     font-size: 2rem;
     line-height: 1.5;
@@ -77,10 +86,7 @@ h1 {
     font-weight: bold;
     font-size: 2.5rem;
 }
-p {
-    color: gray;
-    font-size: 1.5rem;
-}
+
 
 .iconFeature {
     color: #cc000c;
@@ -90,25 +96,38 @@ p {
     color: lightcoral;
 }
 
-#testimonials {
-    
-    background-color: #cc000c;
-    text-align:center;
-    color:black;
-}
-h2 {
-    font-family: "Montserrat", sans-serif;
-    font-weight:bold;
-    font-size:3rem;
-    line-height:1.5;
 
+
+
+.carousel-item {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
-.TestiImage{
-    width:15%;
-    border-radius:100%;
-    margin:3%;
-    text-align:left;
+
+
+#IntroText {
+    padding-top: 40%;
 }
+
+#IntroPhoto {
+    padding-top: 15%;
+}
+
+#titletxt {
+    padding-bottom: 15%;
+}
+#features {
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+#testimonials {
+    background-color: #cc000c;
+    text-align: center;
+    color: black;
+}
+
 #press {
     padding-left: 15%;
     padding-right: 15%;
@@ -126,23 +145,15 @@ h2 {
     text-align:center;
 
 }
-
-.PressImg{
-    padding:5%;
-}
-.carousel-item {
-    padding-left: 15%;
-    padding-right: 15%;
+#cta {
     padding-top: 10%;
     padding-bottom: 10%;
-}
-#cta {
-    padding-top:10%;
-    padding-bottom:10%;
     background-color: #cc000c;
-    text-align:center;
+    text-align: center;
 }
+
 #footer {
     text-align: center;
     background-color: #cc000c;
 }
+
