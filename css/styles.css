@@ -1,14 +1,10 @@
-#title {
-    background-color: #cc000c;
-    height:100%;
-    padding-bottom:5%;
-}
+
 body {
     background-color: white;
     font-family :"Montserrat", sans-serif;
+    text-align:center;
 }
 h1 {
-    font-family: "Montserrat", sans-serif;
     font-size: 3rem;
     line-height: 1.5;
     font-weight: bold;
@@ -18,7 +14,6 @@ p {
     font-size: 1.5rem;
 }
 h2 {
-    font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 3rem;
     line-height: 1.5;
@@ -65,20 +60,17 @@ h2 {
 }
 .nav-link{
     font-size:1.25rem;
-
 }
 .downloadbtn{
     margin-right:2.5%;
     margin-left:2.5%;
 }
 
-
 .FeaturedSec {
     font-size: 2rem;
     line-height: 1.5;
 }
 .PriceDiv{
-    
     padding-right:5%;
     padding-left:5%;
 }
@@ -86,7 +78,6 @@ h2 {
     font-weight: bold;
     font-size: 2.5rem;
 }
-
 
 .iconFeature {
     color: #cc000c;
@@ -96,9 +87,6 @@ h2 {
     color: lightcoral;
 }
 
-
-
-
 .carousel-item {
     padding-left: 15%;
     padding-right: 15%;
@@ -106,9 +94,15 @@ h2 {
     padding-bottom: 10%;
 }
 
+#title {
+    background-color: #cc000c;
+    height: 100%;
+    padding-bottom: 5%;
+}
 
 #IntroText {
     padding-top: 40%;
+    text-align:left;
 }
 
 #IntroPhoto {
@@ -123,8 +117,7 @@ h2 {
     padding-bottom: 15%;
 }
 #testimonials {
-    background-color: #cc000c;
-    text-align: center;
+    background-color: #cc000c; 
     color: black;
 }
 
@@ -134,7 +127,6 @@ h2 {
     padding-top: 5%;
     padding-bottom: 3%;
     background-color: white;
-    text-align: center;
     color: black;
 }
 #pricing {
@@ -142,18 +134,14 @@ h2 {
     color: black;
     padding-top: 5%;
     padding-bottom:5%;
-    text-align:center;
-
 }
 #cta {
     padding-top: 10%;
     padding-bottom: 10%;
     background-color: #cc000c;
-    text-align: center;
 }
 
 #footer {
-    text-align: center;
     background-color: #cc000c;
 }
 
